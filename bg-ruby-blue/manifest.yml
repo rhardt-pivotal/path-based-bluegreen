@@ -1,0 +1,8 @@
+---
+applications:
+- name: ruby-demo-tmo-blue
+  routes:
+  - route: ruby-demo-tmo.cfapps.io/v1.1/
+  buildpack: ruby_buildpack
+  instances: 1
+  path: .
